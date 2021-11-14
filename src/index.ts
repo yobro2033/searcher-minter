@@ -27,7 +27,7 @@ async function main() {
           transaction: {
             chainId: CHAIN_ID,
             type: 2,
-            value: ETHER / 100n * 3n,
+            value: ETHER / 100n * 8n, // ETHER div by 100 times 3 -> 0.3
             data: "0x1249c58b",
             maxFeePerGas: GWEI * 3n,
             maxPriorityFeePerGas: GWEI * 2n,
